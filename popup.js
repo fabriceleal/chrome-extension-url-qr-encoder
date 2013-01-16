@@ -1,0 +1,3 @@
+$(function() {
+    $('#qrcode').qrcode('Hello!');
+});

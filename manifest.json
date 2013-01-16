@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Linkss",
+  "description": "Push linkz into google docs",
+  "version": "1.0",
+
+  "permissions": [
+    "https://www.example.com/"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
