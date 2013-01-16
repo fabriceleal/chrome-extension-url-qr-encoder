@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Linkss",
-  "description": "Push linkz into google docs",
+  "name": "Url Qrcoder",
+  "description": "Shows a qr code of the url in the selected tab.",
   "version": "0.0.1",
 
   "permissions": [
@@ -11,5 +11,10 @@
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
+  },
+  "icons": { 
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png" 
   }
 }
